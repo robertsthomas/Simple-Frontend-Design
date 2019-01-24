@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.hero {
+	background-image: url(//unsplash.it/1400/400);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.hero__title {
+	color: white;
+	padding-top: 150px;
+
+	@extend .display-4, .font-weight-bold, .w-50, .d-block, .pb-3 ;
+}
+
+.case_button {
+	border-radius: 0;
+
+	@extend .btn, .btn-outline-light, .text-uppercase, .p-3
+}

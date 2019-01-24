@@ -1,0 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
+.page-row {
+	@extend .row, .mb-3
+}
