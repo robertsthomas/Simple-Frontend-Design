@@ -12,6 +12,7 @@ import Hero from "./Sections/Hero/Hero";
 import Prices from './Sections/Prices/Prices'
 import About from './Sections/About/About'
 import Footer from './Sections/Footer/Footer'
+import Cards from './Sections/Cards/Cards'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
       <Container fluid style={{ margin: 0, padding: 0 }}>
         <Navigation />
         <Hero />
+        <Cards />
         <Container>
           <VeritcalRule />
           <About />

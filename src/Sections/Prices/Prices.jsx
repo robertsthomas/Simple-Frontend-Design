@@ -11,7 +11,7 @@ const Prices = () => (
 		<div className="row mb-3 justify-content-center">
 
 			<div className="card-deck">
-				<div className="card" style={{ width: '18rem' }}>
+				<div className="card shadow" style={{ width: '18rem' }}>
 					<div className="card-body text-center">
 						<div className="card-title pb-3">
 							<div className="d-inline h2 font-weight-bold">$29</div>
@@ -31,7 +31,7 @@ const Prices = () => (
 					</div>
 				</div>
 
-				<div className="card" style={{ width: '18rem', }}>
+				<div className="card shadow" style={{ width: '18rem', }}>
 					<div className="card-header text-center bg-dark text-white rounded-0">Most Popular</div>
 					<div className="card-body text-center">
 						<div className="card-title pb-3">
@@ -52,7 +52,7 @@ const Prices = () => (
 					</div>
 				</div>
 
-				<div className="card" style={{ width: '18rem' }}>
+				<div className="card shadow" style={{ width: '18rem' }}>
 					<div className="card-body text-center">
 						<div className="card-title pb-3">
 							<div className="d-inline h2 font-weight-bold">$29</div>

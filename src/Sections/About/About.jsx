@@ -12,14 +12,14 @@ const About = () => (
 		</div>
 		<div className="page-row">
 			<div className="col-10">
-				<p className='text-left'>
+				<p className='text-left pb-5'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui non magnam magni atque architecto vel est officiis dignissimos libero eaque sequi, repellendus fugit illum. Molestiae voluptates error ducimus aliquam sequi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit architecto eum tempora cupiditate non nobis dolores officiis voluptatem, quod quasi recusandae totam blanditiis rerum aperiam suscipit laboriosam praesentium nulla eos.
 				</p>
 			</div>
 		</div>
 		<div className="page-row">
 			<div className="col-12">
-				<img className='img-fluid' src='//unsplash.it/g/1400/400' />
+				<img className='img-fluid' src='//unsplash.it/g/1400/600' />
 			</div>
 		</div>
 		<div className="page-row">
