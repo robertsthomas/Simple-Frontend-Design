@@ -3,7 +3,7 @@ import React from 'react'
 import './style.scss'
 
 const About = () => (
-	<div className="container h-100">
+	<React.Fragment>
 		<div className="page-row">
 			<div className="col-12 text-wrap">
 				<div className="h1 font-weight-bold mb-0">About</div>
@@ -30,7 +30,7 @@ const About = () => (
 				</div>
 			))}
 		</div>
-	</div>
+	</React.Fragment>
 )
 
 export default About

@@ -9,19 +9,23 @@ import VeritcalRule from './Components/VerticalRule/VerticalRule'
 
 // Page Sections
 import Hero from "./Sections/Hero/Hero";
+import Prices from './Sections/Prices/Prices'
 import About from './Sections/About/About'
+import Footer from './Sections/Footer/Footer'
 
 class App extends Component {
   render() {
     return (
-      <Container fluid className='m-0 p-0'>
+      <Container fluid style={{ margin: 0, padding: 0 }}>
         <Navigation />
         <Hero />
-        <VeritcalRule />
-        <About />
-        <div style={{color: 'white', background: 'black'}} className="footer">
-          I am a footer
-        </div>
+        <Container>
+          <VeritcalRule />
+          <About />
+          <VeritcalRule />
+          <Prices />
+        </Container>
+        <Footer />
       </Container>
     );
   }
