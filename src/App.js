@@ -21,12 +21,12 @@ class App extends Component {
         <Navigation />
         <Hero />
         <Cards />
-        <Container>
-          <VeritcalRule />
+        <VeritcalRule />
+        <div className="py-3 bg-light">
           <About />
-          <VeritcalRule />
-          <Prices />
-        </Container>
+        </div>
+        <VeritcalRule />
+        <Prices />
         <Footer />
       </Container>
     );

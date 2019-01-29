@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => (
-	<div className="container-fluid bg-dark" style={{ height: 200 }}>
+	<div className="container-fluid bg-secondary mt-5" style={{ height: 200 }}>
 		<div className="container h-100">
 			<div className="row text-white justify-content-center align-items-center h-100 text-center">
 				<div className="col-4">

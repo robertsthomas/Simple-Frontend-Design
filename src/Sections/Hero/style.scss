@@ -2,10 +2,12 @@
 
 
 .hero {
-	background-image: url(//unsplash.it/g/1400/550);
+	background-image: url(../../images/dental1.jpg);
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	height: 500px;
+	filter: grayscale(100%)
 }
 
 .hero__title {

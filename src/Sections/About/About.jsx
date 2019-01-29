@@ -2,8 +2,11 @@ import React from 'react'
 
 import './style.scss'
 
+import image from '../../images/smile1.jpg';
+
+
 const About = () => (
-	<React.Fragment>
+	<div className='container'>
 		<div className="page-row">
 			<div className="col-12 text-wrap">
 				<div className="h1 font-weight-bold mb-0">About</div>
@@ -19,7 +22,7 @@ const About = () => (
 		</div>
 		<div className="page-row">
 			<div className="col-12">
-				<img className='img-fluid' src='//unsplash.it/g/1400/600' />
+				<img className='' style={{height: 400, width: '100%', objectFit: 'cover', objectPosition: 'right top', filter: 'grayscale(100%)'}} src={image} />
 			</div>
 		</div>
 		<div className="page-row">
@@ -30,7 +33,7 @@ const About = () => (
 				</div>
 			))}
 		</div>
-	</React.Fragment>
+	</div>
 )
 
 export default About

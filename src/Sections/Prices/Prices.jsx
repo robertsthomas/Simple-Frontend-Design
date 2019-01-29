@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Prices = () => (
-	<div className='pb-5'>
-		<div className="row mb-3">
+	<div className='container'>
+		<div className="row mb-3 m-0">
 			<div className="col-12 text-wrap">
 				<div className="h1 font-weight-bold mb-0">Price Plans</div>
 				<div className='font-weight-bold text-muted text-uppercase'>online course</div>
