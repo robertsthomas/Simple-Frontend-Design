@@ -46,7 +46,7 @@ const Prices = () => (
 							<li> 100 events per day</li>
 							<li> 2 month event history</li>
 						</ul>
-						<button type="button" class="btn btn-dark btn-lg mt-5 rounded-0" style={{ borderWidth: 'medium' }}>
+						<button type="button" class="btn btn-dark btn-lg rounded-0" style={{ borderWidth: 'medium' }}>
 							Get Started
 							</button>
 					</div>

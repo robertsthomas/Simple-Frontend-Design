@@ -10,7 +10,7 @@ const About = () => (
 		<div className="page-row">
 			<div className="col-12 text-wrap">
 				<div className="h1 font-weight-bold mb-0">About</div>
-				<div className='font-weight-bold text-muted text-uppercase'>Dental Enigma</div>
+				<div className='font-weight-bold text-muted text-uppercase'>T.N.T</div>
 			</div>
 		</div>
 		<div className="page-row">
